@@ -339,7 +339,7 @@ export default function Home() {
       return (
         <div>
           {proposals.map((p, index) => (
-            <div key={index} className={styles.proposalCard}>
+            <div key={index} className="proposalCard">
               <p>Proposal ID: {p.proposalId}</p>
               <p>Fake NFT to Purchase: {p.nftTokenId}</p>
               <p>Deadline: {p.deadline.toLocaleString()}</p>
